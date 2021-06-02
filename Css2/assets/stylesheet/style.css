@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 850px;
+    height: 600px;
+    padding: 15px;
+    display: flex;
+}
+.course-img {
+    width: 150px;
+    height: 600px;
+    padding: 10px;
+}
+.img img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+}
+.img-icon img{
+    position: absolute;
+    z-index: 1;
+    left: 115px;
+    top: 115px;
+    width: 25px;
+    height: 25px;
+}
+.content {
+    width: 720px;
+    height: 400px;
+}
+.goal-icon img, .status-icon img, .leaderboard img, .setting img, .diff-icon img, .checked img {
+    width: 25px;
+    height: 25px;
+}
+.date-icon img {
+    width: 15px;
+    height: 15px;
+}
+.leaderboard {
+    width: 30px;
+    padding: 0 5px;
+}
+.top div {
+    display: flex;
+}
+.name {
+    width: 450px;
+    padding: 20px;
+}
+.name div span {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.goal-status {
+    width: 125px;
+    height: 30x;
+    background-color: rgb(255, 196, 0);
+    border-radius: 10px;
+    padding: 5px;
+}
+.goal-status div span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(10, 27, 82);
+    font-weight: bold;
+}
+.right > div:first-child {
+    width: 165px;
+    padding: 20px;
+}
+.right > div {
+    width: 45px;
+    padding: 20px 20px 20px 0;
+}
+.status-text {
+    padding: 10px 0 10px 530px;
+}
+.status-text div span {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 14, 46);
+}
+.status-bar {
+    padding: 10px 10px 10px 20px;
+}
+.status-bar img, .goal-status img {
+    width: 655px;
+    height: 12px;
+}
+.goals {
+    display: flex;
+    background-color: rgb(136, 212, 231);
+    width: 660px;
+    height: 180px;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+.goal {
+    width: 110px;
+    height: 140px;
+    padding: 10px 10px 10px 0;
+    text-align: center;
+    border-right: 1.5px solid whitesmoke;
+}
+.dates {
+    display: flex;
+    width: 400px;
+    padding: 10px 20px 10px 10px;
+}
+.date {
+    width: 40px;
+    height: 50px;
+    padding: 10px;
+}
+.date-text {
+    height: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.streak {
+    background-color: whitesmoke;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+}
+.goal-status-img {
+    width: 600px;
+    padding: 20px;
+}
+.goal-status-img img {
+    width: 480px;
+    height: 10px;
+}
+.goal-text, .goal-edit {
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+}
+.goal-edit {
+    background-color: rgb(5, 14, 46);
+    border-radius: 10px;
+}
+.goal-edit span {
+    color: rgb(255, 196, 0);
+}
+.row {
+    display: flex;
+    width: 530px;
+    padding: 15px;
+}
+.bottom {
+    width: 600px;
+    display: flex;
+    padding-left: 400px;
+}
+.checked {
+    width: 40px;
+    height: 50px;
+    padding: 5px 10px 10px 10px;
+}
+.checked-text {
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+}
+.diff {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.diff span {
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(5, 14, 46);
+}
+.diffs {
+    display: flex;
+    border-radius: 20px;
+    background-color: rgb(255, 196, 0);
+    padding: 5px;
+    margin-right: 10px;
+    width: 200px;
+}
+.diffs span {
+    color: rgb(5, 14, 46);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.diff-icon-large img {
+    width: 30px;
+    height: 30px;
+}
+.select {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(255, 196, 0);
+    border-radius: 50%;
+}
+.select img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
