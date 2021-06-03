@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 900px;
+    padding: 15px;
+    background-color: rgb(5, 14, 46);
+    display: flex;
+    justify-content: space-between;
+}
+.container span {
+    color: white;
+}
+.image {
+    width: 150px;
+    padding: 5px
+}
+.image img {
+    width: 140px;
+    border-radius: 5px;
+}
+.content {
+    width: 550px;
+    padding: 5px;
+}
+.right {
+    width: 190px;
+    padding: 45px 5px 15px 0px;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+}
+.icon img {
+    width: 10px;
+    height: 10px;
+}
+.ava img {
+    width: 30px;
+    height: 30px;
+}
+.sns-icon img {
+    width: 20px;
+    height: 20px;
+}
+.links {
+    width: 530px;
+    display: flex;
+    padding: 10px;
+    justify-content: start;
+    border-bottom: 2px solid rgb(187, 186, 186);
+}
+.link {
+    padding: 5px;
+}
+.course-name {
+    width: 530px;
+    padding: 15px;
+}
+.course-name span {
+    font-size: 30px;
+    font-weight: bold;
+}
+.course-desc {
+    padding: 15px;
+}
+.course-desc span {
+    font-size: 17px;
+}
+.cre {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    width: 150px;
+}
+.snses {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+.sns {
+    display: flex;
+    width: 45%;
+    padding: 5px;
+    border-radius: 5px;
+}
+.sns:first-child {
+    background-color: rgb(16, 16, 150);
+}
+.sns:last-child {
+    background-color: cadetblue;
+}
+.sns-text {
+    padding: 5px;
+}
+.create {
+    padding: 5px;
+    text-align: center;
+}
+.create-text {
+    font-size: 10;
+    padding: 2px;
+}
+.create-text:first-child span {
+    color: rgb(187, 186, 186);
+}
+.ava {
+    padding: 7.5px 5px 5px 5px;
+}
+.sns-icon {
+    padding-top: 2px;
+}
