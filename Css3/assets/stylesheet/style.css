@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+}
+.top {
+    width: 230px;
+    padding: 10px 10px 10px 30px;
+    display: flex;
+    border-bottom: 1px solid rgb(190, 183, 183);
+    text-align: center;
+}
+.top-icon img, .ava img {
+    width: 25px;
+    height: 25px;
+}
+.top-icon {
+    width: 35px;
+    height: 35px;
+    padding: 0px 5px 5px 5px;
+}
+.top-text {
+    width: 120px;
+    height: 35px;
+    padding: 5px;
+}
+.top-text span {
+    font-size: 20px;
+}
+.times {
+    width: 230px;
+    display: flex;
+    padding: 5px;
+}
+.time {
+    width: 30%;
+    justify-content: space-between;
+    padding: 5px;
+    text-align: center;
+}
+#week {
+    background-color: rgb(136, 212, 231);
+    border-radius: 5px;
+}
+#week span {
+    font-weight: bold;
+}
+.info {
+    width: 230px;
+    display: flex;
+    background-color: rgb(5, 14, 46);
+    margin-top: 5px;
+    justify-content: space-between;
+    text-align: center;
+}
+.info span {
+    color: white;
+}
+.ava {
+    width: 35px;
+    padding: 5px
+}
+.ava img {
+    border-radius: 50%;
+}
+.number {
+    width: 35px;
+    padding: 5px 5px 5px 0;
+    line-height: 25px;
+}
+.name {
+    width: 100px;
+    padding: 5px;
+    line-height: 25px;
+    text-align: start;
+}
+.score {
+    width: 35px;
+    padding: 5px;
+    line-height: 25px;
+}
+.more {
+    text-align: center;
+    padding: 10px;
+}
